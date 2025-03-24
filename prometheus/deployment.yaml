@@ -714,7 +714,7 @@ spec:
     app.kubernetes.io/name: prometheus
     app.kubernetes.io/instance: prometheus
   sessionAffinity: None
-  type: "LoadBalancer"
+  type: "ClusterIP"
 ---
 # Source: prometheus/charts/prometheus-node-exporter/templates/daemonset.yaml
 apiVersion: apps/v1
